@@ -1,16 +1,38 @@
-
-body {
-	font-family: arial;
+:root {
+    --buttonHeight: 50px; 
 }
+
 
 #divLoginFields{
-	margin: auto;
+
     width: 400px;
+
     border: 3px solid green;
     padding: 10px;
-    top: 30%;
+
+	position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+
+    /*this to solve "the content will not be cut when the window is smaller than the content": */
+    max-width:400px;
+    max-height:calc(var(--buttonHeight) * 4);
+    overflow:auto;
+    border-radius: 8px;
 }
 
+
+#imgUserIcon{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	margin: auto;
+	top: 0%;
+	left: 0;
+	right: 0;
+	margin-bottom: 10px;
+}
 
 #buttonAcessar{
 	background-color: blue;
@@ -18,73 +40,20 @@ body {
 	border-radius: 8px;
 	border-style: none;
 	font-size: 14px;
+	height: var(--buttonHeight);
+	margin-top: 4px;
 }
 
 .inputLoginPassword{
 	width: 100%;
 	margin-top: 2px;
-	height: 30px;
-	/*border-radius: 30px;*/
-}
-
-
-table {
-	border-color: #1E90FF;
-	border-width: 1px;
+	margin-bottom: 10px;
+	border-radius: 8px;
+	/*border-radius: var(--buttonHeight);*/
+	height: var(--buttonHeight);
 	border-style: solid;
-	padding: 20px;
-	border-radius: 4px;
-}
-
-table tr th{
-	padding-bottom: 3px;
-}
-
-input {
-	width: 150px;
-	font-family: arial;
-	border-color: #CCC;
-	border-width: 1px;
-	border-style: solid;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 20px;
-	padding-left: 20px;
-	border-radius: 2px;
-}
-
-.erro {
-	border-color: red;
-}
-
-input:focus {
-	border-color: #1E90FF;
-	color: black;
-}
-
-button {
-	background-color: #088A68;
-	width: 100px;
-	height: 40px;
-	border-radius: 5px;
-	margin-top: 20px;
-	color: white;
-}
-
-button:hover {
-	background-color: #04B486;
-	cursor: pointer;
-}
-
-#form {
-	font-family: arial;
-	font-size: 20px;
-	color: #1E90FF;
-	text-shadow: -1px 1px 0.5px;
-	padding-bottom: 10px;
-}
-
-body {
-	/*margin-left: 600px;*/
+	border-color:rgb(200,200,200);
+	.padding-left: 100px;
+		font-family: "Arial";
 
 }
