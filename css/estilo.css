@@ -21,10 +21,6 @@ body {
 	color: white;
 }
 
-table tr th{
-	padding-bottom: 3px;
-}
-
 #tbConteudo {
 	position: absolute;
 	left: 200px;
