@@ -3,6 +3,31 @@ body {
 	font-family: arial;
 }
 
+#divLoginFields{
+	margin: auto;
+    width: 400px;
+    border: 3px solid green;
+    padding: 10px;
+    top: 30%;
+}
+
+
+#buttonAcessar{
+	background-color: blue;
+	width: 100%;
+	border-radius: 8px;
+	border-style: none;
+	font-size: 14px;
+}
+
+.inputLoginPassword{
+	width: 100%;
+	margin-top: 2px;
+	height: 30px;
+	/*border-radius: 30px;*/
+}
+
+
 table {
 	border-color: #1E90FF;
 	border-width: 1px;
@@ -60,5 +85,6 @@ button:hover {
 }
 
 body {
+	/*margin-left: 600px;*/
 
 }
