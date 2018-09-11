@@ -1,0 +1,90 @@
+
+body {
+	font-family: arial;
+}
+
+#divLoginFields{
+	margin: auto;
+    width: 400px;
+    border: 3px solid green;
+    padding: 10px;
+    top: 30%;
+}
+
+
+#buttonAcessar{
+	background-color: blue;
+	width: 100%;
+	border-radius: 8px;
+	border-style: none;
+	font-size: 14px;
+}
+
+.inputLoginPassword{
+	width: 100%;
+	margin-top: 2px;
+	height: 30px;
+	/*border-radius: 30px;*/
+}
+
+
+table {
+	border-color: #1E90FF;
+	border-width: 1px;
+	border-style: solid;
+	padding: 20px;
+	border-radius: 4px;
+}
+
+table tr th{
+	padding-bottom: 3px;
+}
+
+input {
+	width: 150px;
+	font-family: arial;
+	border-color: #CCC;
+	border-width: 1px;
+	border-style: solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-radius: 2px;
+}
+
+.erro {
+	border-color: red;
+}
+
+input:focus {
+	border-color: #1E90FF;
+	color: black;
+}
+
+button {
+	background-color: #088A68;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	margin-top: 20px;
+	color: white;
+}
+
+button:hover {
+	background-color: #04B486;
+	cursor: pointer;
+}
+
+#form {
+	font-family: arial;
+	font-size: 20px;
+	color: #1E90FF;
+	text-shadow: -1px 1px 0.5px;
+	padding-bottom: 10px;
+}
+
+body {
+	/*margin-left: 600px;*/
+
+}
