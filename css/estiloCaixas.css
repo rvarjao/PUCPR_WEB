@@ -1,0 +1,31 @@
+body {
+	font-family: arial;
+}
+
+#tbCaixas {
+	border-color: #1E90FF;
+	border-width: 1px;
+	border-style: solid;
+	padding: 20px;
+	border-radius: 4px;
+	position: absolute;
+	left: 10px;
+}
+
+#tbCaixas button {
+	background-color: #088A68;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	margin-top: 20px;
+	color: white;
+}
+
+#tbConteudo {
+	position: absolute;
+	left: 200px;
+}
+
+#tdCaixas {
+	text-align: center;
+}
