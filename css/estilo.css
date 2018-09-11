@@ -2,41 +2,17 @@ body {
 	font-family: arial;
 }
 
-table {
+#tbCaixas {
 	border-color: #1E90FF;
 	border-width: 1px;
 	border-style: solid;
 	padding: 20px;
 	border-radius: 4px;
+	position: absolute;
+	left: 10px;
 }
 
-table tr th{
-	padding-bottom: 3px;
-}
-
-input {
-	width: 150px;
-	font-family: arial;
-	border-color: #CCC;
-	border-width: 1px;
-	border-style: solid;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 20px;
-	padding-left: 20px;
-	border-radius: 2px;
-}
-
-.erro {
-	border-color: red;
-}
-
-input:focus {
-	border-color: #1E90FF;
-	color: black;
-}
-
-button {
+#tbCaixas button {
 	background-color: #088A68;
 	width: 100px;
 	height: 40px;
@@ -45,20 +21,15 @@ button {
 	color: white;
 }
 
-button:hover {
-	background-color: #04B486;
-	cursor: pointer;
+table tr th{
+	padding-bottom: 3px;
 }
 
-#form {
-	font-family: arial;
-	font-size: 20px;
-	color: #1E90FF;
-	text-shadow: -1px 1px 0.5px;
-	padding-bottom: 10px;
+#tbConteudo {
+	position: absolute;
+	left: 200px;
 }
 
-body {
-	margin-left: 600px;
-
+#tdCaixas {
+	text-align: center;
 }
