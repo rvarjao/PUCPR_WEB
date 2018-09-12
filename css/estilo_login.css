@@ -1,14 +1,21 @@
 :root {
     --buttonHeight: 50px; 
+    --placeholder_color: rgb(180,180,180);
+    --placeholder_padding: 10px;
+    --color_very_dark: #254382;
+    --color_dark: #7C97CF;
+    --color_light: #CCDCFF;
+    --color_very_light: #F5F8FF;
+    --font-family-used: "Helvetica";
 }
 
 
 #divLoginFields{
 
     width: 400px;
-
-    border: 3px solid green;
-    padding: 10px;
+    border: 3px var(--color_light);
+/*    background-color: var(--color_very_light);
+*/    /*padding: 10px;*/
 
 	position:absolute; /*it can be fixed too*/
     left:0; right:0;
@@ -17,43 +24,161 @@
 
     /*this to solve "the content will not be cut when the window is smaller than the content": */
     max-width:400px;
+    display: block;
     max-height:calc(var(--buttonHeight) * 4);
-    overflow:auto;
-    border-radius: 8px;
+
+/*    overflow:auto;
+*/    border-radius: 4px;
+	/*background-color: red;*/
+}
+
+#divLoginFields input, button{
+	margin-top: 8px;
+	margin-bottom: 8px;
+	height: var(--buttonHeight);
+	/*display: block;*/
+
+
+}
+
+/*Placeholder fica transparente ao receber foco*/
+/*Atende a varios tipos de browser*/
+input:focus::-webkit-input-placeholder { 
+	color:transparent; 
+}
+
+input:focus:-moz-placeholder { 
+	color:transparent; 
+}
+
+input:focus::-moz-placeholder { 
+	color:transparent; 
+}
+
+input:focus:-ms-input-placeholder { 
+	color:transparent; 
 }
 
 
-#imgUserIcon{
-	width: 50px;
-	height: 50px;
-	position: absolute;
-	margin: auto;
-	top: 0%;
-	left: 0;
-	right: 0;
-	margin-bottom: 10px;
+input::-webkit-input-placeholder { 
+	color: var(--placeholder_color);
+}
+
+input:-moz-placeholder { 
+	color: var(--placeholder_color);
+}
+
+input::-moz-placeholder { 
+	color: var(--placeholder_color);
+}
+
+input:-ms-input-placeholder { 
+	color: var(--placeholder_color);
+}
+
+
+/*---------------------------*/
+
+#inputLogin{
+	background-image: url(../imagens/user_icon.png);
+}
+
+#inputPassword{
+	background-image: url(../imagens/password_icon.png);
+}
+
+
+.inputLoginPassword{
+
+	text-indent: var(--placeholder_padding);
+	border-radius: 4px;
+
+/*	height: var(--buttonHeight);*/
+	border-style: solid;
+	border-color:rgb(200,200,200);
+
+	font-family: "Helvetica";
+	font-size: 16px;
+
+	background-position: 2px 50%;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+
+
+	display: block;
+	box-sizing:border-box;	
+	width: 90%;
+	
+	position: relative;
+	padding-left: 5%;
+	padding-right: 5%;
+	
+	/*margin-top: 1%;*/
+
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+body{
+	background-color: var(--color_light);
 }
 
 #buttonAcessar{
-	background-color: blue;
-	width: 100%;
-	border-radius: 8px;
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	
+	border-radius: 4px;
 	border-style: none;
-	font-size: 14px;
-	height: var(--buttonHeight);
-	margin-top: 4px;
+
+	color: var(--color_very_light);
+	background-color: var(--color_very_dark);
+
+	cursor: pointer;
+	font-size: 16px;
+/*	height: var(--buttonHeight);*/
+	/*margin-bottom: 10%;*/
 }
 
-.inputLoginPassword{
-	width: 100%;
-	margin-top: 2px;
-	margin-bottom: 10px;
-	border-radius: 8px;
-	/*border-radius: var(--buttonHeight);*/
-	height: var(--buttonHeight);
-	border-style: solid;
-	border-color:rgb(200,200,200);
-	.padding-left: 100px;
-		font-family: "Arial";
+#buttonAcessar:hover{
+	background-color: var(--color_very_light);
+	color: var(--color_very_dark);
+}
+
+label{
+	font-family: var(--font-family-used);
+}
+
+#labelEsqueceuSenha{
 
 }
+
+#labelCadastrese{
+	text-align: right;
+}
+
+.classLabelInsideDivLogin{
+	width: 50%;
+	display: inline-block;
+	font-size: 10px;
+}
+
+.divLabels{
+	display: flex;
+	margin-top: 0px;
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+
+
+
