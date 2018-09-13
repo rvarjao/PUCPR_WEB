@@ -1,0 +1,99 @@
+:root {
+    --buttonHeight: 50px; 
+    --placeholder_color: rgb(180,180,180);
+    --placeholder_padding: 30px;
+    --color_very_dark: #254382;
+    --color_dark: #7C97CF;
+    --color_light: #CCDCFF;
+    --color_very_light: #F5F8FF;
+    --font-family-used: "Helvetica";
+    --borderRadius: 4px;
+
+}
+
+
+body{
+	background-color: var(--color_light);
+}
+
+.class_divForm{
+	margin: auto;
+	width: 340px;
+	margin-top: 100px;
+
+}
+
+.formLogin{
+	width: 100%;
+}
+
+input{
+	font-family: var(--font-family-used);
+	border-radius: var(--borderRadius);
+	border-style: none;
+}
+
+.formLogin input{
+	
+	/*posicionamento*/
+	width: 100%; 
+	box-sizing: border-box;
+
+	margin: auto;
+	
+	display: block;
+	height: var(--buttonHeight);
+
+	/*esquema de cores*/
+	border-radius: var(--borderRadius);
+	border-style: solid;
+	border-color:rgb(200,200,200);
+
+	font-family: "Helvetica";
+	font-size: 16px;
+
+	background-position: 2px 50%;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+
+
+	/*formatacao do texto*/
+
+
+}
+.formLogin input[type="text"], input[type="password"]{
+	text-indent: var(--placeholder_padding);
+}
+
+#inputLogin{
+	background-image: url(../imagens/user_icon.png);
+}
+
+#inputPassword{
+	background-image: url(../imagens/password_icon.png);
+}
+
+
+.formLogin input[type="submit"]{
+
+	color: var(--color_very_light);
+	background-color: var(--color_very_dark);
+
+	cursor: pointer;
+	font-size: 16px;
+	border-style: none;
+
+}
+
+.formLogin input[type="submit"]:hover{
+	background-color: var(--color_very_light);
+	color: var(--color_very_dark);
+}
+
+.classLabelInsideDivLogin{
+	width: 50%;
+	display: inline-block;
+	font-size: 12px;
+	font-family: var(--font-family-used);
+}
+

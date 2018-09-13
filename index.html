@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="css/estilo_login.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo_login_form.css">
 	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
 	<script type="text/javascript" src="js/script_login.js"></script>
 	<title>Login</title>
@@ -9,16 +9,17 @@
 <meta charset="utf-8">
 
 <body>
-
-<div id="divLoginFields">
-	<input type="text" class="inputLoginPassword" name="" id="inputLogin" placeholder="Usuário">
-	<input type="password" name="" class="inputLoginPassword" id="inputPassword" placeholder="Senha">
-	<button id="buttonAcessar">Acessar</button>
-	<div class="divLabels">
-		<label id="labelEsqueceuSenha" class="classLabelInsideDivLogin"><a href="">Esqueceu a sua senha?</a></label><label id="labelCadastrese" class="classLabelInsideDivLogin">Não tem uma conta? <a href="">Cadastre-se</a>
-		</label>
+<!-- formulario de login -->
+<!-- utilizando um div principal contendo o formulario com os botoes e labels -->
+	<div class="class_divForm" id="id_divForm">
+		<form class="formLogin">
+			<input type="text" name="inputLogin" id="inputLogin" placeholder="Usuário"><br>
+			<input type="password" name="inputPassword" id="inputPassword" placeholder="Senha"><br>
+			<input type="submit" name="inputSubmit" id="inputSubmit" value="Acessar"><br>
+			<label id="labelEsqueceuSenha" class="classLabelInsideDivLogin"><a href="">Esqueceu a sua senha?</a></label><label id="labelCadastrese" class="classLabelInsideDivLogin">Não tem uma conta? <a href="">Cadastre-se</a>
+		</form>
 	</div>
-</div>
+
 
 
 </body>

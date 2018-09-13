@@ -7,6 +7,7 @@
     --color_light: #CCDCFF;
     --color_very_light: #F5F8FF;
     --font-family-used: "Helvetica";
+    --borderRadius: 4px;
 }
 
 
@@ -28,19 +29,72 @@
     display: block;
     max-height:calc(var(--buttonHeight) * 4);
 
-/*    overflow:auto;
-*/    border-radius: 4px;
-	/*background-color: red;*/
+    border-radius: var(--borderRadius);
+	
 }
 
 #divLoginFields input, button{
 	margin-top: 8px;
 	margin-bottom: 8px;
 	height: var(--buttonHeight);
-	/*display: block;*/
+}
+
+#divMensagemDeErro{
+    width: 400px;
+    display: block;
+
+    max-height:calc(var(--buttonHeight) * 4);
+
+    height: var(--buttonHeight);
+    
+    position:relative;
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+    /*margin-top: 1%;*/
+    margin-bottom: 1%;
+    
+    max-height:var(--buttonHeight);
+}
+
+#labelMensagemDeErro{
+	
+	border-style: solid;
+	border-color: rgb(209,60,44);
+	border-width: 2px;
+	border-radius: var(--borderRadius);
+
+    background-color: rgb(255,234,232);
+
+	
+	/*posicionamento*/
+	display: block;
+	box-sizing:border-box;	
+	width: 90%;
+	
+	position: relative;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	/*--------*/
+
+
+	vertical-align: middle;
+
+	display: -webkit-flex !important;
+
+
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center !important;
 
 
 }
+
 
 /*Placeholder fica transparente ao receber foco*/
 /*Atende a varios tipos de browser*/
@@ -92,7 +146,7 @@ input:-ms-input-placeholder {
 .inputLoginPassword{
 
 	text-indent: var(--placeholder_padding);
-	border-radius: 4px;
+	border-radius: var(--borderRadius);
 
 /*	height: var(--buttonHeight);*/
 	border-style: solid;
@@ -135,7 +189,7 @@ body{
 	margin-right: auto;
 	display: block;
 	
-	border-radius: 4px;
+	border-radius: var(--borderRadius);
 	border-style: none;
 
 	color: var(--color_very_light);
