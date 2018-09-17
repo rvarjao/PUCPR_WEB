@@ -8,7 +8,6 @@
     --color_very_light: #F5F8FF;
     --font-family-used: "Helvetica";
     --borderRadius: 4px;
-
 }
 
 
@@ -20,7 +19,6 @@ body{
 	margin: auto;
 	width: 340px;
 	margin-top: 100px;
-
 }
 
 .formLogin{
@@ -93,7 +91,27 @@ input{
 .classLabelInsideDivLogin{
 	width: 50%;
 	display: inline-block;
-	font-size: 12px;
+	font-size: 11px;
+}
+
+label{
 	font-family: var(--font-family-used);
 }
 
+.classErrorLabel{
+	width: 100%; 
+	box-sizing: border-box;
+	margin: auto;
+	margin-bottom: 20px;
+	display: block;
+	border: solid rgb(214,68,70);
+	border-radius: var(--borderRadius);
+	background-color: rgb(255,235,232);
+	opacity: 1;
+	padding-left: 20px;
+}
+
+
+.transparent{
+
+}
