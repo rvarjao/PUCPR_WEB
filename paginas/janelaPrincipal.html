@@ -6,30 +6,29 @@
 	<title>Caixa de Entrada</title>
 </head>
 <body>
-	<div id="divMenu">
-		<table class="tabelaMenu">
-		<tr><td class="tdMenu">Favoritos</td></tr>
-		<tr><td class="tdMenu">Caixa de Entrada</td></tr>
-		<tr><td class="tdMenu">Lixo Eletrônico</td></tr>
-		<tr><td class="tdMenu">Rascunho</td></tr>
-		<tr><td class="tdMenu">Itens Enviados</td></tr>
-		<tr><td class="tdMenu">Itens Excluídos</td></tr>
-		<tr><td class="tdMenu">Arquivo Morto</td></tr>
-		</table>
+	<div id="divNomeUsuario">
+		<label id="labelNomeUsuario">Nome do Usuário</label>
 	</div>
 	<div id="divBarraSuperior">
-		<input type="text" name="inputPesquisar" id="inputPesquisar">
-				
+		<button id="buttonMainMenu"></button>
+		<input type="text" name="inputPesquisar" id="inputPesquisar" placeholder="Pesquisar">
 	</div>
-	<div id="divMensagens">
-		<label id="labelCaixaEmail">Caixa de Entrada</label>
-		<table id="tabelaMensagens">
-			<tr>
-				<td class="txtEmail">rvarjao@gmail.com</td>
-				<td class="txtAssunto">Assunto: sobre</td>
-				<td class="txtMensagem">Parte da mensagem</td>
-			</tr>
+	<div id="divInferior">
+		<div id="divMenu">
+		<button id="buttonNovaMensagem">+ Nova mensagem</button>
+		<table class="tabelaMenu">
+			<tr><td class="tdMenu"><button class="buttonMenu">Favoritos</button></td></tr>
+			<tr><td class="tdMenu"><button class="buttonMenu">Caixa de Entrada</button></td></tr>
+			<tr><td class="tdMenu"><button class="buttonMenu">Lixo Eletrônico</button></td></tr>
+			<tr><td class="tdMenu"><button class="buttonMenu">Rascunho</button></td></tr>
+			<tr><td class="tdMenu"><button class="buttonMenu">Itens Enviados</button></td></tr>
+			<tr><td class="tdMenu"><button class="buttonMenu">Itens Excluídos</button></td></tr>
+			<tr><td class="tdMenu"><button class="buttonMenu">Arquivo Morto</button></td></tr>
 		</table>
+		</div>
+		<div id="divMensagens">
+		</div>
 	</div>
+
 </body>
 </html>
