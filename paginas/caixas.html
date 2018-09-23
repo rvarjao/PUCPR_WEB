@@ -12,6 +12,7 @@
 	</head>
 
 	<body>
+
 		<div id="topo">
 			
 			<table id="tabTopo">
@@ -22,6 +23,7 @@
 			</table>
 
 			<label id="lBusca">Busca</label>
+			<div><a href=""><img src="../imagens/trans/pesquisa.png" id="imgBusca"></a></div>
 			<div id="lEmail">meuemail@email.com</div>
 			<div id="imConf"><a href=""><img src="../imagens/trans/simbolo-interface-de-engrenagem-para-a-configuracao_318-614665.png"></a></div>
 
@@ -32,35 +34,43 @@
 				<td colspan="2" id="tdCaixas">Caixas</td>
 			</tr>
 			<tr>
-				<td><img src="../imagens/trans/email_recebido.png" width="25px"></td>
-				<td><button id="bCaixaDeEntrada"> Caixa de entrada </button></td>
+				<td><a href=""><button id="bCaixaDeEntrada"> Caixa de entrada </button></a></td>
 			</tr>
 			<tr>
-				<td><img src="../imagens/trans/email_enviados.png" width="25px"></td>
-				<td><button id="bItensEnviados"> Itens Enviados </button></td>
+				<td><a href=""><button id="bItensEnviados"> Itens Enviados </button></a></td>
 			</tr>
-		</table>
-		<table id="tbConteudo">
 			<tr>
-				<div id="lista"></div>
+				<td><a href=""><button id="bLixeira"> Lixeira </button></a></td>
 			</tr>
 		</table>
+
+		<div id="logoRecebidos"><img src="../imagens/trans/email_recebido.png" width="25px"></div>
+		<div id="logoEnviados"><img src="../imagens/trans/email_enviados.png" width="25px"></div>
+		<div id="logoLixeira"><img src="../imagens/trans/lixo-simbolo-de-lixeira_318-42507.png" width="25px"></div>
+
+
 		<div id="caixAberta">
-			<div class="Linha">
-				<div class="colMarcar">Marcar</div>
-				<div class="colRemetente">Remetente</div>
-				<div class="colEmail">Email</div>
-				<div class="colAssunto">Assunto</div>
-				<div class="colResumo">Resumo</div>
-			</div>
 
 			<div class="Linha">
 				<div class="colMarcar"><input type="checkbox" name=""></div>
+				<a href="">
+				<div class="colEstado"><img src="../imagens/email_estado/trans/mail-icon.png"></div>
 				<div class="colRemetente">João da Silva</div>
 				<div class="colEmail">jsilva@email.com</div>
 				<div class="colAssunto">Oferta imperdível!</div>
-				<div class="colResumo">Olá, td bem? Estou aqui para oferecer uma promoção imperdível...</div>
+				<div class="colResumo">Olá, td bem? Estou aqui para oferecer uma promoção imperdível...</div></a>
 			</div>
+
+			<div class="Linha2">
+				<div class="colMarcar"><input type="checkbox" name=""></div>
+				<a href="">
+				<div class="colEstado"><img src="../imagens/email_estado/trans/correio-envelope-de-volta-com-uma-folha-de-papel-no-interior_318-50434.png"></div>
+				<div class="colRemetente">Pedro dos Santos</div>
+				<div class="colEmail">psantos@email.com</div>
+				<div class="colAssunto">Trabalho Amanhã!</div>
+				<div class="colResumo">Cara, blza? Acho que o trabalho de Web é pra amanhã, me ajuda...</div></a>
+			</div>
+
 		</div>
 	</body>
 </html>
