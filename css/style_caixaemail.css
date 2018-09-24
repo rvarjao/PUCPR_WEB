@@ -8,6 +8,8 @@
     --color_very_light: #F5F8FF;
     --fontFamily: "Gill Sans";
     --borderRadius: 4px;
+    --menuButtonHeight: 40px;
+    --topBarHeight:40px;
 }
 
 html,body {
@@ -17,7 +19,7 @@ html,body {
 
 label, button, td{
 	font-family: var(--fontFamily);
-	  align-self: flex-start
+	align-self: flex-start
 }
 
 
@@ -30,7 +32,7 @@ label, button, td{
 /*    Barra superior   */
 #divBarraSuperior{
 	background-color: rgb(54,144,196);
-	height: 50px;
+	height: var(--topBarHeight);
 	width: 100%;
 	
     display: flex;
@@ -52,13 +54,16 @@ label, button, td{
 	height: 30px;
 	width: 30px;
 
-	display: inline-table;
 
 	margin-left: 20px;
     background-size: 20px 20px;
 	background-position: 50% 50%;
     background-repeat: no-repeat;
     border: none;
+
+    overflow: hidden;
+    color: #FFFFFF;
+    position: relative;
     /*background-color: rgba(0,0,0,0);*/
 }
 
@@ -73,7 +78,6 @@ label, button, td{
 }
 
 #divMenu{
-	background-color: red;
 	width: 25%;
 	display: inline-block;
 	float: left;
@@ -103,30 +107,43 @@ label, button, td{
 #divMenu table{
 	width: 100%;
 	background-color: rgb(203,231,239);
+	border-style: none;
 }
 
 #divMenu table tr:nth-child(2n){
 	background-color: rgb(221,238,245);
-	width: 100%;
+	border-style: none;
 }
 
+#divMenu table td{
+	border-style: none;
+}
+#divMenu table tr{
+	height: var(--menuButtonHeight);
+	width: 100%;
+	border-style: none;
+}
+
+#divMenu table th{
+	height: var(--menuButtonHeight);
+	width: 100%;
+	background-color: rgb(243,243,243);
+}
 
 #divMenu button{
 	width: 100%;
-	height: 50px;
+	height: 100%;
 	background-position: 2px 50%;
     background-size: 16px 16px;
     background-repeat: no-repeat;
 }
 
-
-#divMensagens{
-	display: inline-block;
-	background-color: rgb(237,237,237);
-	height: 100%;
-	width: 70%;
-	margin: auto;
+#buttonNovaMensagem{
+	background-color: rgba(0,0,0,0);
+	border: none;
+	height: var(--topBarHeight);
 }
+
 
 
 #labelNomeUsuario{
@@ -134,5 +151,21 @@ label, button, td{
 	font-size: 40px;
 }
 
+/*Div Mensagens*/
+#divMensagens{
+	display: inline-block;
+	background-color: rgb(237,237,237);
+	height: 100%;
+	width: 75%;
+	margin: auto;
 
+	background-color: red;
+}
+
+#labelCaixa{
+	background-color: .blue;
+	width: 100%;
+	height: var(--menuButtonHeight);
+	border: solid black;
+}
 
