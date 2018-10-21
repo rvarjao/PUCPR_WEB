@@ -107,11 +107,9 @@ label{
 	border: solid rgb(214,68,70);
 	border-radius: var(--borderRadius);
 	background-color: rgb(255,235,232);
-	opacity: 1;
 	padding-left: 20px;
 }
 
-
-.transparent{
-
+.opacity0{
+	/*display: none;*/
 }
