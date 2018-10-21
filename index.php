@@ -1,7 +1,28 @@
 <?php
-	ob_start();
-	session_start();
+
+$msg = '';
+$login_granted = false;
+
+if (isset($_POST['username']) && !empty($_POST['username']) 
+   && !empty($_POST['password'])) {
+	
+   if ($_POST['username'] == 'admin' && 
+      $_POST['password'] == 'admin') {
+      $_SESSION['valid'] = true;
+      $_SESSION['timeout'] = time();
+      $_SESSION['username'] = 'tutorialspoint';
+      $msg = 'You have entered valid username and password';
+      $login_granted = true;
+   }else {
+      $msg = 'Wrong username or password';
+   }
+}
+if ($msg != ""){
+	echo "$msg";
+}
+	
 ?>
+
 
 <!DOCTYPE html>
 <html>
@@ -24,30 +45,8 @@
 
 		<form role = "form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method = "post" id="divLoginFields" class="formLogin">
 
-			<label class="classErrorLabel opacity0"><p>
-			<?php
+			<label class="classErrorLabel opacity0" style="display: none;"><p>
 
-	            $msg = '';
-	            $login_granted = false;
-
-	            if (isset($_POST['username']) && !empty($_POST['username']) 
-	               && !empty($_POST['password'])) {
-					
-	               if ($_POST['username'] == 'admin' && 
-	                  $_POST['password'] == 'admin') {
-	                  $_SESSION['valid'] = true;
-	                  $_SESSION['timeout'] = time();
-	                  $_SESSION['username'] = 'tutorialspoint';
-	                  $msg = 'You have entered valid use name and password';
-	                  $login_granted = true;
-	               }else {
-	                  $msg = 'Wrong username or password';
-	               }
-	            }
-	            if ($msg != ""){
-					echo "$msg";
-	            }
-         	?>
 
      </p></label>
 			<input type="text" name="username" id="inputLogin" placeholder="Usuário" required autofocus><br>
