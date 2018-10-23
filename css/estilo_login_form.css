@@ -110,6 +110,6 @@ label{
 	padding-left: 20px;
 }
 
-.opacity0{
-	/*display: none;*/
+.display_none{
+	display: none;
 }

@@ -1,0 +1,8 @@
+{
+  "admin" : {
+  	"nome" : "João da Silva Jr.",
+    "login" : "admin",
+    "password" : "1234",
+    "arquivo_email" : "emails_admin.xml"
+  }
+}

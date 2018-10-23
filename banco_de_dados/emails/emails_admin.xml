@@ -7,8 +7,8 @@
 			<titulo>Professor(a) RICARDO, você vai gostar!</titulo>
 			<mensagem>Um mês inteirinho para professor cadastrado no site do GEN comprar qualquer produto com 40% de desconto!. Os valores promocionais poderão ser vistos após o login no site. Aproveite para atualizar o seu conhecimento! </mensagem>
 			<data_e_hora>19/10/2018 23:40:00</data_e_hora>
-		</email>
-		
+			<lido>false</lido>
+		</email>		
 		<email>
 			<de>contadigitalvivo@vivo.com.br</de>
 			<para>admin@user.com</para>
@@ -17,7 +17,9 @@
 
 			Você está recebendo anexa a sua conta Vivo Móvel, com vencimento em 26/10/2018, para simples conferência. Ela já está em Débito Automático, o que garante mais tranquilidade e comodidade para você.</mensagem>
 			<data_e_hora>19/10/2018 06:53:00</data_e_hora>
+			<lido>false</lido>
 		</email>
+		
 		<email>
 			<de>do-not-reply@blackboard.com</de>
 			<para>admin@user.com</para>
@@ -31,6 +33,7 @@
 			18/10 - Projeto adicionado 
 			Programação Orientada a Objetos (Turma U) - Engenharia de Software (Diurno) - 2018 / 2º Sem (360741_42348_U_T)</mensagem>
 			<data_e_hora>19/10/2018 01:40:00</data_e_hora>
+			<lido>false</lido>
 		</email>
 		
 			<email>
@@ -57,7 +60,9 @@
 
 			Segue em anexo a arte para divulgação e abaixo o &quot;texto&quot;, caso necessário. </mensagem>
 			<data_e_hora>18/10/2018 07:40:00</data_e_hora>
+		<lido>false</lido>
 		</email>
+		
 		<email>
 			<de>team@fightforthefuture.org</de>
 			<para>admin@user.com</para>
@@ -70,7 +75,9 @@
 			There are only 13 days left in the public comment period make Pai reject the Sprint/T-Mobile merger. Take action now to stop this new telecom monopoly.
 			</mensagem>
 			<data_e_hora>17/10/2018 16:20:00</data_e_hora>
+			<lido>false</lido>
 		</email>
+	
 	</caixa_de_entrada>
 
 	<caixa_de_saida>
@@ -89,6 +96,7 @@
 
 			Boa semana</mensagem>
 			<data_e_hora>10/10/2018 14:32:00</data_e_hora>
+		<lido>false</lido>
 		</email>
 		
 		<email>
@@ -106,6 +114,7 @@
 			(41) 3432-3212 - (41) 98462-0029
 			Email: fernanda@netlinkant.com.br_ _</mensagem>
 			<data_e_hora>10/09/2018 10:23:00</data_e_hora>
+			<lido>false</lido>
 		</email>
 		
 			<email>
@@ -136,6 +145,8 @@
 			 
 			&lt;image001.png&gt;</mensagem>
 			<data_e_hora>01/09/2018 03:40:00</data_e_hora>
+			<lido>false</lido>
+
 		</email>
 		
 			<email>
@@ -148,6 +159,7 @@
 			Não me preocupei se as tabelas e quadros estão na mesma página porque o texto ainda pode sofrer alterações. Na versão final ficarei atento.
 			</mensagem>
 			<data_e_hora>21/08/2018 08:53:00</data_e_hora>
+			<lido>false</lido>
 		</email>
 
 	</caixa_de_saida>
