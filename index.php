@@ -40,7 +40,7 @@
 
 		var callback = JSON.parse(string_callback);
 		if (callback.login_granted == 1){
-			window.location.href = 'paginas/caixas.php?username=' + '<?php echo $_POST['username'];?>'
+			window.location.href = 'paginas/caixas.php?username=' + '<?php echo $_POST['username'];?>' + '&caixa_atual=caixa_de_entrada'
 		}
 		ajusta_mensagem_erro_login(callback);
 	</script>
