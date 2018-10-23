@@ -64,20 +64,10 @@
 				<button id="bLixeira" style="width: 100%"> Lixeira </button><br>
 			</div>
 		
-		    <div style="size: -calc(90% - 190px); margin-left: 190px; background-color: gray; bottom: 0px; height: 100%;">
+		    <div style="size: -calc(90% - 190px); margin-left: 190px; bottom: 0px; height: 100%;">
 				
-				<table id="email_table" width="100%" style="height: 100%">
+				<table id="email_table" width="100%" style="height: 100%", style="table-layout: fixed;">
 					
-					<tr>
-						<th></th>
-						<th></th>
-						<th>Data e hora</th>
-						<th>De</th>
-						<th>Para</th>
-						<th>Título</th>
-						<th>Mensagem</th>
-					</tr>
-				
 				</table>
 
 			</div>
@@ -85,7 +75,7 @@
 
 
 		<script type="text/javascript">
-			
+
 			atualiza_tabela(<?php $_GET['caixa_atual']?>);
 
 			function atualiza_tabela(caixa_atual){

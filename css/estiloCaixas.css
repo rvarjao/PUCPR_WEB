@@ -163,6 +163,10 @@ button:hover {
 	color: white;
 }
 
+#email_table td{
+	font-size: 12px;
+}
+
 .Linha {
 	background-color: #E0FFFF;
 	font-weight: bold;

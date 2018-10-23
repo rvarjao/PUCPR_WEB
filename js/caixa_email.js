@@ -30,8 +30,8 @@ function completa_tabela_emails(json_emails, tabela_id, caixa_atual){
 		var data_e_hora = json_emails[caixa_atual].email[index].data_e_hora;
 
 		texto_tabela = texto_tabela + "<tr>";
-		texto_tabela = texto_tabela + "<td>" + "</td>";
-		texto_tabela = texto_tabela + "<td>" + "</td>";
+		texto_tabela = texto_tabela + "<td>" + "<input type=\"checkbox\">" + "</td>";  //lido ou nao lido
+		texto_tabela = texto_tabela + "<td>" + "<img src=\"../imagens/email_novo.png\" style='height: 23px;'>" +  "</td>";
 
 		texto_tabela = texto_tabela + "<td>" + data_e_hora + "</td>";
 		texto_tabela = texto_tabela + "<td>" + de + "</td>";
@@ -52,17 +52,16 @@ function completa_tabela_emails(json_emails, tabela_id, caixa_atual){
 
 		var cabecalho = `
 					<tr>
-						<th></th>
-						<th></th>
-						<th>Data e hora</th>
-						<th>De</th>
-						<th>Para</th>
-						<th>Título</th>
-						<th>Mensagem</th>
+						<th style="width: 3%;"></th>
+						<th style="width: 3%;"></th>
+						<th style="min-width: 12.5%; max-width: 12.5%;">Data e hora</th>
+						<th style="min-width: 12.5%; max-width: 12.5%">De</th>
+						<th style="min-width: 12.5%; max-width: 12.5%">Para</th>
+						<th style="min-width: 25.0%; max-width: 25.0%">Título</th>
+						<th style="min-width: 25.0%; max-width: 25.0%">Mensagem</th>
 					</tr>
 				 `; 
 
-		// console.log(cabecalho);
 		$("#" + tabela_id).prepend(cabecalho);
 
 	}
