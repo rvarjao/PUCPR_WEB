@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<Emails>
+	<Email>
+		<Destinatario>
+			João da Silva
+		</Destinatario>
+		<EmailDestinatario>
+			joao.silva@email.com
+		</EmailDestinatario>
+		<Assunto>
+			Re: Trabalho de amanhã!!
+		</Assunto>
+		<Resumo>
+			E ai, blza? Acho que não...
+		</Resumo>
+	</Email>
+
+	<Email>
+		<Destinatario>
+			Maria de Lurdes
+		</Destinatario>
+		<EmailDestinatario>
+			maria.lurdes@email.com
+		</EmailDestinatario>
+		<Assunto>
+			Não sei usar
+		</Assunto>
+		<Resumo>
+			Foi mal tia, não sei usar...
+		</Resumo>
+	</Email>
+
+	<Email>
+		<Destinatario>
+			José de Carvalho
+		</Destinatario>
+		<EmailDestinatario>
+			jose.dc@email.com
+		</EmailDestinatario>
+		<Assunto>
+			Não faltei!
+		</Assunto>
+		<Resumo>
+			Estava usando uma capa de invisibili...
+		</Resumo>
+	</Email>
+
+	<Email>
+		<Destinatario>
+			Mario de Armario
+		</Destinatario>
+		<EmailDestinatario>
+			d.armario@email.com
+		</EmailDestinatario>
+		<Assunto>
+			Chefe que se exploda!
+		</Assunto>
+		<Resumo>
+			Aquele velho broxa que vá a mer...
+		</Resumo>
+	</Email>
+
+	<Email>
+		<Destinatario>
+			Fulano de Tal
+		</Destinatario>
+		<EmailDestinatario>
+			tal.d.fulano@email.com
+		</EmailDestinatario>
+		<Assunto>
+			Re: Ganhe dinhero fácil!
+		</Assunto>
+		<Resumo>
+			Eu queria viver assim, achei o máximo...
+		</Resumo>
+	</Email>
+
+	<Email>
+		<Destinatario>
+			Pedro Pedroso
+		</Destinatario>
+		<EmailDestinatario>
+			seu.pedroso@email.com
+		</EmailDestinatario>
+		<Assunto>
+			Como assim?!
+		</Assunto>
+		<Resumo>
+			Nunca faltei, usava uma capa de invisibilid...
+		</Resumo>
+	</Email>
+</Emails>
+
+
