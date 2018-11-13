@@ -35,6 +35,9 @@
 		<script type="text/javascript" src="../js/jquery.js"></script>
 		<script type="text/javascript" src="../js/funcao.js"></script>
 		<script type="text/javascript" src="../js/caixa_email.js"></script>
+		<!-- <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script> -->
+		<!-- <script>tinymce.init({ selector:'textarea' });</script> -->
+
 		<meta charset="utf-8">
 </head>
 
@@ -58,6 +61,7 @@
 
 		<div id='inferior' style= "width: 100%; height: 100%; overflow: hidden; margin-top: 10px;">
 			<div style="width: 180px; float: left;"> 
+				<button id="bNovoEmail" style="width: 100%" onclick="">Novo email</button><br>
 				<button id="bCaixaDeEntrada" style="width: 100%" onclick="atualiza_tabela('caixa_de_entrada')">
 					Caixa de Entrada</button><br>
 				<button id="bItensEnviados" style="width: 100%" onclick="atualiza_tabela('caixa_de_saida')"> Itens Enviados </button><br>
@@ -82,10 +86,61 @@
 				var string_emails = Array(<?php echo json_encode($json_emails_usuario_atual); ?>);
 				// console.log(string_emails[0]);
 				var json_emails = JSON.parse(string_emails);
-				console.log(json_emails);
 				completa_tabela_emails(json_emails, "email_table", caixa_atual);
 			}
 		</script>
+
+
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+
+		  <!-- Modal content -->
+		  <div class="modal-content" style="display: block;">
+
+		    <span class="close">&times;</span>
+		    
+		    <span id="spanPara" >Para:</span>
+		    <input type="text" name="inputPara" id="inputPara" style="width: 80%"><br>
+		    
+		    <span id="spanAssunto">Assunto:</span>
+		    <input type="text" name="inputAssunto" id="inputAssunto" style="width: 80%"><br>
+		    
+		    <span id="spanMensagem">Mensagem:</span><br>
+		    <input type="textarea" name="inputMensagem" style="width: 80%">	
+
+		  </div>
+
+		</div>
+
+
+		<script>
+			// Get the modal
+			var modal = document.getElementById('myModal');
+
+			// Get the button that opens the modal
+			var btn = document.getElementById("bNovoEmail");
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks the button, open the modal 
+			btn.onclick = function() {
+			    modal.style.display = "block";
+			}
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() {
+			    modal.style.display = "none";
+			}
+
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+			    if (event.target == modal) {
+			        modal.style.display = "none";
+			    }
+			}
+		</script>
+
 
 
 
