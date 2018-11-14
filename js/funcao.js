@@ -25,7 +25,7 @@ function fLocalCaixaDeEntrada() {
 	$.ajax({
 		type: "POST",
 		dataType: "xml",
-		url: "emailsEntrada.xml",
+		url: "../xml/emailsEntrada.xml",
 
 		success:function(data) {
 			
@@ -62,7 +62,7 @@ function fLocalCaixaDeSaida() {
 
 		type: "POST",
 		dataType: "xml",
-		url: "emailsSaida.xml", 
+		url: "../xml/emailsSaida.xml", 
 
 		success:function(data) {
 			
@@ -91,7 +91,7 @@ function fLocalLixeira() {
 	$.ajax({
 		type: "POST",
 		dataType: "xml",
-		url: "emailsLixeira.xml",
+		url: "../xml/emailsLixeira.xml",
 
 		success:function(data) {
 			

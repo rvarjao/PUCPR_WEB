@@ -1,11 +1,24 @@
-function valida_login(loginValido, msg){
-	if (loginValido == false){
-		$("#errorLabel").removeClass("transparent");
-	}else{
-		$("#errorLabel").addClass("transparent");
-	}
+$( document ).ready(function() {
 	
-	console.log("login: " + loginValido);
-	console.log("msg: " + msg);
+	var IS_JSON = true;
+	try{
+	   		var json_retorno = JSON.parse($("#retorno_do_php").val());
+			
+			if (json_retorno.login_valido == false){
+				$("#errorLabel").removeClass("transparent");
+				$("#errorLabel").empty();
+				$("#errorLabel").append("<p>" + json_retorno.msg +  "</p>");
+			}else{
+				$("#errorLabel").addClass("transparent");
+			}
 
-}
+
+	   	}
+	   	catch(err){
+        	IS_JSON = false;
+			$("#errorLabel").addClass("transparent");
+        	return;
+		}
+
+
+});
