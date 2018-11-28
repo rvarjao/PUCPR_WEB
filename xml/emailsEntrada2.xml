@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<Emails>
+	<Email>
+		<Estado>
+			1
+		</Estado>
+		<Remetente>
+			João da Silva
+		</Remetente>
+		<EmailRemetente>
+			joao.silva@email.com
+		</EmailRemetente>
+		<Assunto>
+			Trabalho de amanhã!!
+		</Assunto>
+		<Resumo>
+			E ai, blza? Acho que...
+		</Resumo>
+		<Bla>
+			A
+		</Bla>
+	</Email>
+
+	<Email>
+		<Estado>
+			1
+		</Estado>
+		<Remetente>
+			Maria de Lurdes
+		</Remetente>
+		<EmailRemetente>
+			maria.lurdes@email.com
+		</EmailRemetente>
+		<Assunto>
+			Como usar iClod?
+		</Assunto>
+		<Resumo>
+			Oi meu sobrinho, estou com dificuldade...
+		</Resumo>
+		<Bla>
+			Q
+		</Bla>
+	</Email>
+
+	<Email>
+		<Estado>
+			2
+		</Estado>
+		<Remetente>
+			José de Carvalho
+		</Remetente>
+		<EmailRemetente>
+			jose.dc@email.com
+		</EmailRemetente>
+		<Assunto>
+			Faltou trabalho!
+		</Assunto>
+		<Resumo>
+			Porra cara, faltou o trabalho de novo. Olha a justa causa! Seu m...
+		</Resumo>
+		<Bla>
+			U
+		</Bla>
+	</Email>
+
+	<Email>
+		<Estado>
+			2
+		</Estado>
+		<Remetente>
+			NovaPiramide
+		</Remetente>
+		<EmailRemetente>
+			nova.piramide@email.com
+		</EmailRemetente>
+		<Assunto>
+			Oferta Ultra imperdível!
+		</Assunto>
+		<Resumo>
+			Saiba como ganhar dinhero gastando dinheiro ou sem fazer nada!!...
+		</Resumo>
+		<Bla>
+			I
+		</Bla>
+	</Email>
+
+	<Email>
+		<Estado>
+			2
+		</Estado>
+		<Remetente>
+			Mario de Armario
+		</Remetente>
+		<EmailRemetente>
+			d.armario@email.com
+		</EmailRemetente>
+		<Assunto>
+			Chefe tá pê da vida!
+		</Assunto>
+		<Resumo>
+			Velho, acho que o chefe percebeu que voce faltou 12 vezes esse...
+		</Resumo>
+		<Bla>
+			N
+		</Bla>
+	</Email>
+
+	<Email>
+		<Estado>
+			2
+		</Estado>
+		<Remetente>
+			Sergio Malandro
+		</Remetente>
+		<EmailRemetente>
+			ie.ieh@email.com
+		</EmailRemetente>
+		<Assunto>
+			Olha essa pegadinha..
+		</Assunto>
+		<Resumo>
+			Esse cara se deu mal! Achou que ia se dar bem e acabou se ferran...
+		</Resumo>
+		<Bla>
+			O
+		</Bla>
+	</Email>
+
+	<Email>
+		<Estado>
+			2
+		</Estado>
+		<Remetente>
+			Fulano de Tal
+		</Remetente>
+		<EmailRemetente>
+			tal.d.fulano@email.com
+		</EmailRemetente>
+		<Assunto>
+			Ganhe dinhero fácil!
+		</Assunto>
+		<Resumo>
+			Olha como vivem essas pessoas que trabalham para o google. Você também...
+		</Resumo>
+		<Bla>
+			V
+		</Bla>
+	</Email>
+
+	<Email>
+		<Estado>
+			2
+		</Estado>
+		<Remetente>
+			Pedro Pedroso
+		</Remetente>
+		<EmailRemetente>
+			seu.pedroso@email.com
+		</EmailRemetente>
+		<Assunto>
+			Rodou por falta
+		</Assunto>
+		<Resumo>
+			Olá meu aluno! Sinto lhe informar mas você rodou por falta. Seu vagab...
+		</Resumo>
+		<Bla>
+			O
+		</Bla>
+	</Email>
+</Emails>
+
+

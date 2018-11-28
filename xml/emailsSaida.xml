@@ -1,94 +1,50 @@
 <?xml version="1.0"?>
-<Emails>
-	<Email>
-		<Destinatario>
-			João da Silva
-		</Destinatario>
-		<EmailDestinatario>
+<Emails><Email><Destinatario>
+			Jo&#xE3;o da Silva
+		</Destinatario><EmailDestinatario>
 			joao.silva@email.com
-		</EmailDestinatario>
-		<Assunto>
-			Re: Trabalho de amanhã!!
-		</Assunto>
-		<Resumo>
-			E ai, blza? Acho que não...
-		</Resumo>
-	</Email>
-
-	<Email>
-		<Destinatario>
+		</EmailDestinatario><Assunto>
+			Re: Trabalho de amanh&#xE3;!!
+		</Assunto><Resumo>
+			E ai, blza? Acho que n&#xE3;o...
+		</Resumo></Email><Email><Destinatario>
 			Maria de Lurdes
-		</Destinatario>
-		<EmailDestinatario>
+		</Destinatario><EmailDestinatario>
 			maria.lurdes@email.com
-		</EmailDestinatario>
-		<Assunto>
-			Não sei usar
-		</Assunto>
-		<Resumo>
-			Foi mal tia, não sei usar...
-		</Resumo>
-	</Email>
-
-	<Email>
-		<Destinatario>
-			José de Carvalho
-		</Destinatario>
-		<EmailDestinatario>
+		</EmailDestinatario><Assunto>
+			N&#xE3;o sei usar
+		</Assunto><Resumo>
+			Foi mal tia, n&#xE3;o sei usar...
+		</Resumo></Email><Email><Destinatario>
+			Jos&#xE9; de Carvalho
+		</Destinatario><EmailDestinatario>
 			jose.dc@email.com
-		</EmailDestinatario>
-		<Assunto>
-			Não faltei!
-		</Assunto>
-		<Resumo>
+		</EmailDestinatario><Assunto>
+			N&#xE3;o faltei!
+		</Assunto><Resumo>
 			Estava usando uma capa de invisibili...
-		</Resumo>
-	</Email>
-
-	<Email>
-		<Destinatario>
+		</Resumo></Email><Email><Destinatario>
 			Mario de Armario
-		</Destinatario>
-		<EmailDestinatario>
+		</Destinatario><EmailDestinatario>
 			d.armario@email.com
-		</EmailDestinatario>
-		<Assunto>
+		</EmailDestinatario><Assunto>
 			Chefe que se exploda!
-		</Assunto>
-		<Resumo>
-			Aquele velho broxa que vá a mer...
-		</Resumo>
-	</Email>
-
-	<Email>
-		<Destinatario>
+		</Assunto><Resumo>
+			Aquele velho broxa que v&#xE1; a mer...
+		</Resumo></Email><Email><Destinatario>
 			Fulano de Tal
-		</Destinatario>
-		<EmailDestinatario>
+		</Destinatario><EmailDestinatario>
 			tal.d.fulano@email.com
-		</EmailDestinatario>
-		<Assunto>
-			Re: Ganhe dinhero fácil!
-		</Assunto>
-		<Resumo>
-			Eu queria viver assim, achei o máximo...
-		</Resumo>
-	</Email>
-
-	<Email>
-		<Destinatario>
+		</EmailDestinatario><Assunto>
+			Re: Ganhe dinhero f&#xE1;cil!
+		</Assunto><Resumo>
+			Eu queria viver assim, achei o m&#xE1;ximo...
+		</Resumo></Email><Email><Destinatario>
 			Pedro Pedroso
-		</Destinatario>
-		<EmailDestinatario>
+		</Destinatario><EmailDestinatario>
 			seu.pedroso@email.com
-		</EmailDestinatario>
-		<Assunto>
+		</EmailDestinatario><Assunto>
 			Como assim?!
-		</Assunto>
-		<Resumo>
+		</Assunto><Resumo>
 			Nunca faltei, usava uma capa de invisibilid...
-		</Resumo>
-	</Email>
-</Emails>
-
-
+		</Resumo></Email><Email><Destinatario>a</Destinatario><EmailDestinatario>a</EmailDestinatario><Assunto>a</Assunto><Resumo>a</Resumo></Email></Emails>

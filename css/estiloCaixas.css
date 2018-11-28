@@ -37,6 +37,14 @@ a {
 	margin-left: 30px;
 }
 
+#bCaixaDeEntrada2 {
+	margin-left: 30px;
+}
+
+#bEnviarEmail {
+	margin-left: 30px;
+}
+
 #bItensEnviados {
 	margin-left: 30px;
 }
@@ -52,6 +60,12 @@ a {
 #logoRecebidos {
 	position: absolute;
 	top: 173px;
+	left: 28px;
+}
+
+#logoRecebidos2 {
+	position: absolute;
+	top: 365px;
 	left: 28px;
 }
 
@@ -208,6 +222,16 @@ a {
 	margin-top: 20px;
 }
 
+.colBla {
+	position: relative;
+	float: left;
+	margin-left: 20px;
+	width: 20px;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-top: 20px;
+}
+
 .Linha {
 	clear: left;
 	background-color: #E0FFFF;
@@ -217,3 +241,57 @@ a {
 .Linha2 {
 	clear: left;
 }
+
+.sendEmail {
+	position: absolute;
+	clear: left;
+	margin-top: 400px;
+	color: #104E8B;
+	border-color: #1E90FF;
+	border-width: 1px;
+	border-style: solid;
+	padding: 20px;
+	border-radius: 4px;
+	left: 10px;
+	top: 100px;
+	font-weight: bold;
+}
+
+.transparent{
+	opacity: 0;
+}
+
+#tTextoEnviar {
+	font-family: Arial;
+	font-size: 12px;
+	width: 230px;
+}
+
+#bEnviarEmailComp {
+	background-color: #4682B4;
+	width: 150px;
+	height: 40px;
+	border-radius: 5px;
+	margin-top: 20px;
+	color: white;
+}
+
+#bEnviarEmailComp:hover {
+	background-color: #87CEEB;
+}
+
+#tFecharEnviar {
+	padding-left: 30px;
+}
+
+.branco {
+	border-color: red;
+	color: black;
+}
+
+input:focus {
+	border-color: #1E90FF;
+	color: black;
+}
+
+
